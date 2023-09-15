@@ -15,22 +15,19 @@ Dichiariamo chi ha vinto.
 1. Scriviamo sempre in italiano i passaggi che vogliamo fare
 2. Scriviamo sempre solo un pezzetto di codice alla volta, se funziona allora andiamo avanti.
 ===
-1. creare un promt per inserire una parola
-1. function palindromo
-  a.eliminare spazi a mayuscula
-  b.invertire la parola
-  c.comparare la parola con parolaInversa
-1. if parola = parolainversa = palindromo
-1. else = palindromo = false
-1. return parola
-1. output;la parola (parola) e un palindromo / non e un palindromo
+1. creare un promt per inserire una parola y
+2. function palindromo 
+  a. comparare la prima letera con la ultima e cosi fino al centro
+  b. se non sono uguali = false
+  c. se sono uguali = true
+3. output;la parola (parola) e un palindromo / non e un palindromo 
 ===
-1. creare un promt per inserire un numero
-1. creare un promt per scelgiere pari o dispari (select e option)
-1. generare un numero randon con funzione random generator
-1. sumare entrambi numeri (utente e random)
-1. con funzione paridispari leggere la somma
-1. if somma e pari stampare la soma di (numero utente) + (numero random) e pari
-1. else stampare la somma di (numero utente) + (numero random) e dispari
-1. dichiarare se ha vinto o ha perso l'utente al dichiarare se il risultato sara pari o dispari
+4. creare un promt per inserire un numero
+5. creare un promt per scelgiere pari o dispari (select e option)
+6. generare un numero randon con funzione random generator
+7. sumare entrambi numeri (utente e random)
+8. con funzione paridispari leggere la somma
+9. if somma e pari stampare la soma di (numero utente) + (numero random) e pari
+10. else stampare la somma di (numero utente) + (numero random) e dispari
+11. dichiarare se ha vinto o ha perso l'utente al dichiarare se il risultato sara pari o dispari 
 

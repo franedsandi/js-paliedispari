@@ -17,8 +17,10 @@ Dichiariamo chi ha vinto.
 ===
 1. creare un promt per inserire una parola
 1. function palindromo
-1. if parola = palindromo = true
-1. else = palindromo= false
+  a.eliminare spazi a mayuscula
+  b.invertire la parola
+1. if parola = parolainversa = palindromo
+1. else = palindromo = false
 1. return parola
 1. output;la parola (parola) e un palindromo / non e un palindromo
 ===

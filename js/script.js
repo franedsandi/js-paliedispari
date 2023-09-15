@@ -22,6 +22,8 @@
 //1.
 const parola = prompt('Inserisci una parola palindromo');
 let message='';
+const numero = parseInt(prompt('Inserisci un numero'));
+const paridispari = prompt('scelgie tra pari o dispari');
 
 //3.
 if (esPalindromo(parola)) {
@@ -50,3 +52,18 @@ function esPalindromo(parola) {
       return false;
     }else{
       return true;}}}
+
+const somma = numero + randomizer(1,9);
+const numeroRandom = somma - numero;
+let secondMessage =`la somma tra ${numero} e ${numeroRandom} è : ${somma} `
+console.log(secondMessage);
+document.getElementById('output').innerHTML = secondMessage;
+
+
+min=0
+max=9
+function randomizer(min, max){
+  const random = Math.floor(Math.random() * (max - min + 1) + min ) 
+  return random
+}
+

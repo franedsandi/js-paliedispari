@@ -19,6 +19,7 @@ Dichiariamo chi ha vinto.
 1. function palindromo
   a.eliminare spazi a mayuscula
   b.invertire la parola
+  c.comparare la parola con parolaInversa
 1. if parola = parolainversa = palindromo
 1. else = palindromo = false
 1. return parola

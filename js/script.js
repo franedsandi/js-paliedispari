@@ -20,7 +20,8 @@
 
 
 // 1.
-const parola = prompt('Inserisci una parola palindromo').toLowerCase;
+const parola = prompt('Inserisci una parola palindromo');
+
 // 4.
 const numero = parseInt(prompt('Inserisci un numero'));
 // 5.
@@ -37,9 +38,9 @@ if (esPalindromo(parola)) {
 }
 document.getElementById('palindromoverificator').innerHTML = message;
 // 7.
-const somma = numero + randomizer(1, 9);
-const numeroRandom = somma - numero;
-let secondMessage = `La somma tra ${numero} e ${numeroRandom} è: ${somma}`;
+const numeroPc = randomizer(1, 9)
+const somma = numero + numeroPc;
+let secondMessage = `La somma tra ${numero} e ${numeroPc} è: ${somma}`;
 
 // 9.
 if (esPari(somma)) {
@@ -71,13 +72,15 @@ document.getElementById('output').innerHTML = secondMessage;
 
 // 2.
 function esPalindromo(parola) {
-  const pLength = parola.length;
-  // a.
+  const parolalow = parola.toLowerCase(); // Convierte la palabra a minúsculas
+  const pLength = parolalow.length;
+  
   for (let i = 0; i < pLength / 2; i++) {
-    // b.
-    if (parola[i] !== parola[pLength - 1 - i]) {
-      return false;}}
-  // c.
+    if (parolalow[i] !== parolalow[pLength - 1 - i]) {
+      return false;
+    }
+  }
+  
   return true;
 }
 

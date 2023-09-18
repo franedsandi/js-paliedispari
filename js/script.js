@@ -20,7 +20,7 @@
 
 
 // 1.
-const parola = prompt('Inserisci una parola palindromo');
+const parola = prompt('Inserisci una parola palindromo').toLowerCase;
 // 4.
 const numero = parseInt(prompt('Inserisci un numero'));
 // 5.
